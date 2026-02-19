@@ -1,6 +1,10 @@
+package com.arco2121.operazioso.Service;
+
 import jakarta.jws.WebService;
 
-@WebService(endpointInterface = "com.esempio.CalcolatriceService")
+@WebService(endpointInterface = "com.arco2121.operazioso.Service.OperaziosoOperativo",
+        serviceName = "Operazioni",
+        portName = "OperazioniPort")
 public class OperaziosoOperativo implements Operazioso {
 
     @Override

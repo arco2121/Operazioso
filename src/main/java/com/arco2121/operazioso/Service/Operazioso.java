@@ -1,3 +1,5 @@
+package com.arco2121.operazioso.Service;
+
 import jakarta.jws.WebMethod;
 import jakarta.jws.WebParam;
 import jakarta.jws.WebService;

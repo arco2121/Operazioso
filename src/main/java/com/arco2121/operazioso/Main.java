@@ -1,3 +1,6 @@
+package com.arco2121.operazioso;
+
+import com.arco2121.operazioso.Service.OperaziosoOperativo;
 import jakarta.xml.ws.Endpoint;
 
 public class Main {
